@@ -16,6 +16,12 @@ MainWindow::MainWindow(QWidget *parent)
     ui->pushButton_2->showLoading(true);
     ui->pushButton_2->setIcon(":/images/duck.png");
     ui->pushButton_2->setLoadingPng(":/images/loading_16.png", 288, 16);
+
+
+    ui->gif16->setLoadingPng(":/images/loading_16.png", 288, 16);
+    ui->gif16->showLoadingAnimation();
+    ui->gif40->setLoadingPng(":/images/loading_40.png", 960, 40);
+    ui->gif40->showLoadingAnimation();
 }
 
 MainWindow::~MainWindow()

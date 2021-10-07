@@ -116,6 +116,26 @@
      <string notr="true"/>
     </property>
    </widget>
+   <widget class="ButtonIcon" name="gif40" native="true">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>90</y>
+      <width>81</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="ButtonIcon" name="gif16" native="true">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>170</y>
+      <width>81</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -133,7 +153,13 @@
   <customwidget>
    <class>LoadingButton</class>
    <extends>QPushButton</extends>
-   <header location="global">loadingbutton.h</header>
+   <header>loadingbutton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>ButtonIcon</class>
+   <extends>QWidget</extends>
+   <header location="global">buttonicon.h</header>
+   <container>1</container>
   </customwidget>
  </customwidgets>
  <resources>
