@@ -9,13 +9,13 @@ MainWindow::MainWindow(QWidget *parent)
 
     ui->pushButton->setText(tr("Converting"));
     ui->pushButton->showLoading(true);
-    ui->pushButton->setIcon(":/duck.png");
-    ui->pushButton->setLoadingPng(":/loading.png", 960, 40);
+    ui->pushButton->setIcon(":/images/duck.png");
+    ui->pushButton->setLoadingPng(":/images/loading_40.png", 960, 40);
 
     ui->pushButton_2->setText("Merging");
     ui->pushButton_2->showLoading(true);
-    ui->pushButton_2->setIcon(":/duck.png");
-    ui->pushButton_2->setLoadingPng(":/loading1.png", 288, 16);
+    ui->pushButton_2->setIcon(":/images/duck.png");
+    ui->pushButton_2->setLoadingPng(":/images/loading_16.png", 288, 16);
 }
 
 MainWindow::~MainWindow()

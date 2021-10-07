@@ -1,4 +1,4 @@
-# Animation png
+# Qt Display png as Gif
 
 <https://github.com/564398053/QtDisplayPngAsGif>
 
