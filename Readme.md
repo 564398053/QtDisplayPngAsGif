@@ -1,5 +1,7 @@
 # Animation png
 
+<https://github.com/564398053/QtDisplayPngAsGif>
+
 使用定时器，在Qt项目中，实现将png长图显示为动图
 
 ![image](doc/example.gif)
